@@ -1,0 +1,23 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main(){
+
+    ifstream inputFile ("people.txt");
+    int population;
+    int year = 1910;
+
+    if (!InputFile)
+    {
+        cout << "Error opening file." << endl;
+        return 1;
+{
+    while (inputFile >> population)
+        {
+            cout << "Year: " << year << ", Population: " << population << endl;
+            year++;
+            
+        }
+    }
+}
